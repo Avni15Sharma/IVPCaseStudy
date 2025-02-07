@@ -1,0 +1,1845 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Project",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/BondBonds": {
+      "get": {
+        "tags": [
+          "BondBonds"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BondBond"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BondBond"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BondBond"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "BondBonds"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BondBond"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BondBond"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BondBond"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/BondBond"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BondBond"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BondBond"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/BondBonds/{id}": {
+      "get": {
+        "tags": [
+          "BondBonds"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/BondBond"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BondBond"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BondBond"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "BondBonds"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BondBonds/GetByName/{securityName}": {
+      "get": {
+        "tags": [
+          "BondBonds"
+        ],
+        "parameters": [
+          {
+            "name": "securityName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/BondBond"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BondBond"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BondBond"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/BondBonds/PutById/{id}": {
+      "put": {
+        "tags": [
+          "BondBonds"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BondBond"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BondBond"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BondBond"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BondBonds/PutByName/{securityName}": {
+      "put": {
+        "tags": [
+          "BondBonds"
+        ],
+        "parameters": [
+          {
+            "name": "securityName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BondBond"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BondBond"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BondBond"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BondBonds/DeleteByName/{securityName}": {
+      "delete": {
+        "tags": [
+          "BondBonds"
+        ],
+        "parameters": [
+          {
+            "name": "securityName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BondBonds/UpdateHasPositionByName/{securityName}": {
+      "patch": {
+        "tags": [
+          "BondBonds"
+        ],
+        "parameters": [
+          {
+            "name": "securityName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BondBondJsonPatchDocument"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BondBondJsonPatchDocument"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BondBondJsonPatchDocument"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BondBonds/GetTabWiseBond/{tabName}": {
+      "get": {
+        "tags": [
+          "BondBonds"
+        ],
+        "parameters": [
+          {
+            "name": "tabName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EquityAttributes": {
+      "get": {
+        "tags": [
+          "EquityAttributes"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EquityAttribute"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EquityAttribute"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EquityAttribute"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "EquityAttributes"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityAttribute"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityAttribute"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityAttribute"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/EquityAttribute"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EquityAttribute"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EquityAttribute"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/EquityAttributes/{id}": {
+      "get": {
+        "tags": [
+          "EquityAttributes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/EquityAttribute"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EquityAttribute"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EquityAttribute"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "EquityAttributes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityAttribute"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityAttribute"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityAttribute"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "EquityAttributes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EquityEquities": {
+      "get": {
+        "tags": [
+          "EquityEquities"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EquityEquity"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EquityEquity"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EquityEquity"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "EquityEquities"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityEquity"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityEquity"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityEquity"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/EquityEquity"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EquityEquity"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EquityEquity"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/EquityEquities/{id}": {
+      "get": {
+        "tags": [
+          "EquityEquities"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/EquityEquity"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EquityEquity"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EquityEquity"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "EquityEquities"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityEquity"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityEquity"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityEquity"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "EquityEquities"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EquityEquities/GetByName/{SecurityName}": {
+      "get": {
+        "tags": [
+          "EquityEquities"
+        ],
+        "parameters": [
+          {
+            "name": "SecurityName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EquityEquities/PutByName/{securityName}": {
+      "put": {
+        "tags": [
+          "EquityEquities"
+        ],
+        "parameters": [
+          {
+            "name": "securityName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityEquity"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityEquity"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityEquity"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EquityEquities/ByName/{securityName}": {
+      "delete": {
+        "tags": [
+          "EquityEquities"
+        ],
+        "parameters": [
+          {
+            "name": "securityName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EquityEquities/Update/{securityId}": {
+      "patch": {
+        "tags": [
+          "EquityEquities"
+        ],
+        "parameters": [
+          {
+            "name": "securityId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityEquityJsonPatchDocument"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityEquityJsonPatchDocument"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityEquityJsonPatchDocument"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EquityEquities/GetTabWiseEquity/{tabName}": {
+      "get": {
+        "tags": [
+          "EquityEquities"
+        ],
+        "parameters": [
+          {
+            "name": "tabName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EquityTabs": {
+      "get": {
+        "tags": [
+          "EquityTabs"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EquityTab"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EquityTab"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EquityTab"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "EquityTabs"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityTab"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityTab"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityTab"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/EquityTab"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EquityTab"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EquityTab"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/EquityTabs/{id}": {
+      "get": {
+        "tags": [
+          "EquityTabs"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/EquityTab"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EquityTab"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EquityTab"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "EquityTabs"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityTab"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityTab"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquityTab"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "EquityTabs"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BondBond": {
+        "type": "object",
+        "properties": {
+          "securityId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "securityName": {
+            "type": "string",
+            "nullable": true
+          },
+          "securityDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "assetType": {
+            "type": "string",
+            "nullable": true
+          },
+          "investmentType": {
+            "type": "string",
+            "nullable": true
+          },
+          "tradingFactor": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "pricingFactor": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "cusip": {
+            "type": "string",
+            "nullable": true
+          },
+          "isin": {
+            "type": "string",
+            "nullable": true
+          },
+          "sedol": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergTicker": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergUniqueId": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstCouponDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "couponCap": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "couponFloor": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "couponFrequency": {
+            "type": "string",
+            "nullable": true
+          },
+          "couponRate": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "couponType": {
+            "type": "string",
+            "nullable": true
+          },
+          "floatSpread": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "isCallable": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isFixToFloat": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isPutable": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "issueDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "lastResetDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "maturityDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "maximumCallNoticeDays": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maximumPutNoticeDays": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "penultimateCouponDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "resetFrequency": {
+            "type": "string",
+            "nullable": true
+          },
+          "hasPosition": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "duration": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "volatility30d": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "volatility90d": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "convexity": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "averageVolume30d": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "formPfAssetClass": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfCountry": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfCreditRating": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfInstrument": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfLiquidityProfile": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfMaturity": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfNaicsCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfRegion": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfSector": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfSubAssetClass": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergIndustryGroup": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergIndustrySubGroup": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergSector": {
+            "type": "string",
+            "nullable": true
+          },
+          "issueCountry": {
+            "type": "string",
+            "nullable": true
+          },
+          "issueCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "issuer": {
+            "type": "string",
+            "nullable": true
+          },
+          "riskCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "putDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "putPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "callDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "callPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "askPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "highPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "lowPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "openPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "volume": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "bidPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "lastPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "BondBondJsonPatchDocument": {
+        "type": "object",
+        "properties": {
+          "operations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BondBondOperation"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "contractResolver": {
+            "$ref": "#/components/schemas/IContractResolver"
+          }
+        },
+        "additionalProperties": false
+      },
+      "BondBondOperation": {
+        "type": "object",
+        "properties": {
+          "operationType": {
+            "$ref": "#/components/schemas/OperationType"
+          },
+          "path": {
+            "type": "string",
+            "nullable": true
+          },
+          "op": {
+            "type": "string",
+            "nullable": true
+          },
+          "from": {
+            "type": "string",
+            "nullable": true
+          },
+          "value": {
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EquityAttribute": {
+        "type": "object",
+        "properties": {
+          "aid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "aname": {
+            "type": "string",
+            "nullable": true
+          },
+          "tabId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "tab": {
+            "$ref": "#/components/schemas/EquityTab"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EquityEquity": {
+        "type": "object",
+        "properties": {
+          "securityId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "securityName": {
+            "type": "string",
+            "nullable": true
+          },
+          "securityDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "hasPosition": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isActive": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "roundLotSize": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "bloombergUniqueName": {
+            "type": "string",
+            "nullable": true
+          },
+          "cusip": {
+            "type": "string",
+            "nullable": true
+          },
+          "isin": {
+            "type": "string",
+            "nullable": true
+          },
+          "sedol": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergTicker": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergUniqueId": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergGlobalId": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergTickerAndExchange": {
+            "type": "string",
+            "nullable": true
+          },
+          "isAdr": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "adrUnderlyingTicker": {
+            "type": "string",
+            "nullable": true
+          },
+          "adrUnderlyingCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "sharesPerAdr": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ipoDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "priceCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "settleDays": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "sharesOutstanding": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "votingRightsPerShare": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "_20DayAverageVolume": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "beta": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "shortInterest": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "ytdReturn": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "_90DayPriceVolatility": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "formPfAssetClass": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfCountry": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfCreditRating": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfInstrument": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfLiquidityProfile": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfMaturity": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfNaicsCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfRegion": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfSector": {
+            "type": "string",
+            "nullable": true
+          },
+          "formPfSubAssetClass": {
+            "type": "string",
+            "nullable": true
+          },
+          "issueCountry": {
+            "type": "string",
+            "nullable": true
+          },
+          "exchange": {
+            "type": "string",
+            "nullable": true
+          },
+          "issuer": {
+            "type": "string",
+            "nullable": true
+          },
+          "issueCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "tradingCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergIndustrySubGroup": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergIndustryGroup": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloombergIndustrySector": {
+            "type": "string",
+            "nullable": true
+          },
+          "countryOfIncorporation": {
+            "type": "string",
+            "nullable": true
+          },
+          "riskCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "openPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "closePrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "volume": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "lastPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "askPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "bidPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "peRatio": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "declaredDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "exDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "recordDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "payDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "amount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "frequency": {
+            "type": "string",
+            "nullable": true
+          },
+          "dividendType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EquityEquityJsonPatchDocument": {
+        "type": "object",
+        "properties": {
+          "operations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EquityEquityOperation"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "contractResolver": {
+            "$ref": "#/components/schemas/IContractResolver"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EquityEquityOperation": {
+        "type": "object",
+        "properties": {
+          "operationType": {
+            "$ref": "#/components/schemas/OperationType"
+          },
+          "path": {
+            "type": "string",
+            "nullable": true
+          },
+          "op": {
+            "type": "string",
+            "nullable": true
+          },
+          "from": {
+            "type": "string",
+            "nullable": true
+          },
+          "value": {
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EquityTab": {
+        "type": "object",
+        "properties": {
+          "tabId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tabName": {
+            "type": "string",
+            "nullable": true
+          },
+          "equityAttributes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EquityAttribute"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "IContractResolver": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "OperationType": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
