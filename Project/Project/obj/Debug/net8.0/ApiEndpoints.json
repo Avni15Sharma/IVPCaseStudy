@@ -1,0 +1,296 @@
+[
+  {
+    "ContainingType": "Project.Controllers.BondBondsController",
+    "Method": "GetBondBonds",
+    "RelativePath": "sm/BondBonds",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Project.Models.BondBond, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Project.Controllers.BondBondsController",
+    "Method": "PostBondBond",
+    "RelativePath": "sm/BondBonds",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bondBond",
+        "Type": "Project.Models.BondBond",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.Controllers.BondBondsController",
+    "Method": "GetBondBond",
+    "RelativePath": "sm/BondBonds/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Project.Models.BondBond",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Project.Controllers.BondBondsController",
+    "Method": "DeleteBondBondByName",
+    "RelativePath": "sm/BondBonds/DeleteByName/{securityName}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "securityName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.Controllers.BondBondsController",
+    "Method": "BondBondExistsByName",
+    "RelativePath": "sm/BondBonds/exists/{securityName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "securityName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.Controllers.BondBondsController",
+    "Method": "GetBondBondByName",
+    "RelativePath": "sm/BondBonds/GetByName/{securityName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "securityName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Project.Models.BondBond",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Project.Controllers.BondBondsController",
+    "Method": "GetTabWise",
+    "RelativePath": "sm/BondBonds/GetTabWiseBond/{tabName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tabName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.Controllers.BondBondsController",
+    "Method": "PutBondByName",
+    "RelativePath": "sm/BondBonds/PutByName/{securityName}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "securityName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "bondBond",
+        "Type": "Project.Models.BondBond",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.Controllers.EquityEquitiesController",
+    "Method": "GetEquityEquities",
+    "RelativePath": "sm/EquityEquities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Project.Models.EquityEquity, Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Project.Controllers.EquityEquitiesController",
+    "Method": "EquityEquities",
+    "RelativePath": "sm/EquityEquities",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "equityEquity",
+        "Type": "Project.Models.EquityEquity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.Controllers.EquityEquitiesController",
+    "Method": "DeleteEquityEquityByName",
+    "RelativePath": "sm/EquityEquities/ByName/{securityName}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "securityName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.Controllers.EquityEquitiesController",
+    "Method": "CheckEquityExists",
+    "RelativePath": "sm/EquityEquities/exists/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.Controllers.EquityEquitiesController",
+    "Method": "GetEquityEquityById",
+    "RelativePath": "sm/EquityEquities/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.Controllers.EquityEquitiesController",
+    "Method": "GetEquityEquityByName",
+    "RelativePath": "sm/EquityEquities/GetByName/{SecurityName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SecurityName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.Controllers.EquityEquitiesController",
+    "Method": "GetTabWise",
+    "RelativePath": "sm/EquityEquities/GetTabWiseEquity/{tabName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tabName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project.Controllers.EquityEquitiesController",
+    "Method": "PutEquityEquityByName",
+    "RelativePath": "sm/EquityEquities/PutByName/{securityName}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "securityName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "equityEquity",
+        "Type": "Project.Models.EquityEquity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,400 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\project\\logs\\smlog-20250213.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|solutionrelative:project\\logs\\smlog-20250213.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\project\\controllers\\bondbondscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|solutionrelative:project\\controllers\\bondbondscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\project\\repo\\bondops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|solutionrelative:project\\repo\\bondops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\project\\repo\\equityops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|solutionrelative:project\\repo\\equityops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\project\\controllers\\equityequitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|solutionrelative:project\\controllers\\equityequitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\project\\models\\bondbond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|solutionrelative:project\\models\\bondbond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\project\\repo\\iequity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|solutionrelative:project\\repo\\iequity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\project\\logs\\smlog-20250211.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|solutionrelative:project\\logs\\smlog-20250211.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\project\\repo\\ibond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|solutionrelative:project\\repo\\ibond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|solutionrelative:project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|solutionrelative:project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E344D3F-746D-413E-BB70-4168E99098E3}|Data_Access\\Data_Access.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\data_access\\data_access.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6E344D3F-746D-413E-BB70-4168E99098E3}|Data_Access\\Data_Access.csproj|solutionrelative:data_access\\data_access.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\project\\models\\projectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|solutionrelative:project\\models\\projectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\project\\models\\equityequity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|solutionrelative:project\\models\\equityequity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\project\\models\\bondattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|solutionrelative:project\\models\\bondattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E344D3F-746D-413E-BB70-4168E99098E3}|Data_Access\\Data_Access.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\data_access\\repo\\tabs\\itabs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E344D3F-746D-413E-BB70-4168E99098E3}|Data_Access\\Data_Access.csproj|solutionrelative:data_access\\repo\\tabs\\itabs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E344D3F-746D-413E-BB70-4168E99098E3}|Data_Access\\Data_Access.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\data_access\\repo\\tabs\\tabsops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E344D3F-746D-413E-BB70-4168E99098E3}|Data_Access\\Data_Access.csproj|solutionrelative:data_access\\repo\\tabs\\tabsops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E344D3F-746D-413E-BB70-4168E99098E3}|Data_Access\\Data_Access.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\data_access\\repo\\attributes\\attributesops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E344D3F-746D-413E-BB70-4168E99098E3}|Data_Access\\Data_Access.csproj|solutionrelative:data_access\\repo\\attributes\\attributesops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E344D3F-746D-413E-BB70-4168E99098E3}|Data_Access\\Data_Access.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\data_access\\repo\\attributes\\iattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E344D3F-746D-413E-BB70-4168E99098E3}|Data_Access\\Data_Access.csproj|solutionrelative:data_access\\repo\\attributes\\iattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E344D3F-746D-413E-BB70-4168E99098E3}|Data_Access\\Data_Access.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\data_access\\repo\\equity\\equityops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E344D3F-746D-413E-BB70-4168E99098E3}|Data_Access\\Data_Access.csproj|solutionrelative:data_access\\repo\\equity\\equityops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E344D3F-746D-413E-BB70-4168E99098E3}|Data_Access\\Data_Access.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\data_access\\repo\\equity\\iequity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E344D3F-746D-413E-BB70-4168E99098E3}|Data_Access\\Data_Access.csproj|solutionrelative:data_access\\repo\\equity\\iequity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\project\\project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1A626334-B489-43B5-B494-3C734E505E92}|Project\\Project.csproj|solutionrelative:project\\project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E344D3F-746D-413E-BB70-4168E99098E3}|Data_Access\\Data_Access.csproj|c:\\users\\avnsharma\\desktop\\.net\\c# programs\\project\\data_access\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E344D3F-746D-413E-BB70-4168E99098E3}|Data_Access\\Data_Access.csproj|solutionrelative:data_access\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SMLog-20250213.txt",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\logs\\SMLog-20250213.txt",
+              "RelativeDocumentMoniker": "Project\\logs\\SMLog-20250213.txt",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\logs\\SMLog-20250213.txt",
+              "RelativeToolTip": "Project\\logs\\SMLog-20250213.txt",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-02-13T03:52:08.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEquity.cs",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Repo\\IEquity.cs",
+              "RelativeDocumentMoniker": "Project\\Repo\\IEquity.cs",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Repo\\IEquity.cs",
+              "RelativeToolTip": "Project\\Repo\\IEquity.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T11:49:04.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EquityEquitiesController.cs",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Controllers\\EquityEquitiesController.cs",
+              "RelativeDocumentMoniker": "Project\\Controllers\\EquityEquitiesController.cs",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Controllers\\EquityEquitiesController.cs",
+              "RelativeToolTip": "Project\\Controllers\\EquityEquitiesController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAIwG4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T09:54:53.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EquityOps.cs",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Repo\\EquityOps.cs",
+              "RelativeDocumentMoniker": "Project\\Repo\\EquityOps.cs",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Repo\\EquityOps.cs",
+              "RelativeToolTip": "Project\\Repo\\EquityOps.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAkwHgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T11:49:18.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BondOps.cs",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Repo\\BondOps.cs",
+              "RelativeDocumentMoniker": "Project\\Repo\\BondOps.cs",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Repo\\BondOps.cs",
+              "RelativeToolTip": "Project\\Repo\\BondOps.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAQwIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:37:30.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BondBond.cs",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Models\\BondBond.cs",
+              "RelativeDocumentMoniker": "Project\\Models\\BondBond.cs",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Models\\BondBond.cs",
+              "RelativeToolTip": "Project\\Models\\BondBond.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAwIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T10:02:28.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BondBondsController.cs",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Controllers\\BondBondsController.cs",
+              "RelativeDocumentMoniker": "Project\\Controllers\\BondBondsController.cs",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Controllers\\BondBondsController.cs",
+              "RelativeToolTip": "Project\\Controllers\\BondBondsController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAUwGIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T12:56:36.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SMLog-20250211.txt",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\logs\\SMLog-20250211.txt",
+              "RelativeDocumentMoniker": "Project\\logs\\SMLog-20250211.txt",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\logs\\SMLog-20250211.txt",
+              "RelativeToolTip": "Project\\logs\\SMLog-20250211.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-02-12T14:51:19.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBond.cs",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Repo\\IBond.cs",
+              "RelativeDocumentMoniker": "Project\\Repo\\IBond.cs",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Repo\\IBond.cs",
+              "RelativeToolTip": "Project\\Repo\\IBond.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBAAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:37:08.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\appsettings.json",
+              "RelativeDocumentMoniker": "Project\\appsettings.json",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\appsettings.json",
+              "RelativeToolTip": "Project\\appsettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-04T09:49:45.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Program.cs",
+              "RelativeDocumentMoniker": "Project\\Program.cs",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Program.cs",
+              "RelativeToolTip": "Project\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T09:50:55.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Data_Access.csproj",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Data_Access\\Data_Access.csproj",
+              "RelativeDocumentMoniker": "Data_Access\\Data_Access.csproj",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Data_Access\\Data_Access.csproj",
+              "RelativeToolTip": "Data_Access\\Data_Access.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-04T12:39:16.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProjectContext.cs",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Models\\ProjectContext.cs",
+              "RelativeDocumentMoniker": "Project\\Models\\ProjectContext.cs",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Models\\ProjectContext.cs",
+              "RelativeToolTip": "Project\\Models\\ProjectContext.cs",
+              "ViewState": "AgIAAAUAAACAmZmZmZkuwDgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T09:46:00.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EquityEquity.cs",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Models\\EquityEquity.cs",
+              "RelativeDocumentMoniker": "Project\\Models\\EquityEquity.cs",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Models\\EquityEquity.cs",
+              "RelativeToolTip": "Project\\Models\\EquityEquity.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T10:32:33.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BondAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Models\\BondAttribute.cs",
+              "RelativeDocumentMoniker": "Project\\Models\\BondAttribute.cs",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Models\\BondAttribute.cs",
+              "RelativeToolTip": "Project\\Models\\BondAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T14:01:36.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TabsOps.cs",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Data_Access\\Repo\\Tabs\\TabsOps.cs",
+              "RelativeDocumentMoniker": "Data_Access\\Repo\\Tabs\\TabsOps.cs",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Data_Access\\Repo\\Tabs\\TabsOps.cs",
+              "RelativeToolTip": "Data_Access\\Repo\\Tabs\\TabsOps.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T12:41:13.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ITabs.cs",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Data_Access\\Repo\\Tabs\\ITabs.cs",
+              "RelativeDocumentMoniker": "Data_Access\\Repo\\Tabs\\ITabs.cs",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Data_Access\\Repo\\Tabs\\ITabs.cs",
+              "RelativeToolTip": "Data_Access\\Repo\\Tabs\\ITabs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T12:41:00.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Data_Access\\Repo\\Attributes\\IAttributes.cs",
+              "RelativeDocumentMoniker": "Data_Access\\Repo\\Attributes\\IAttributes.cs",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Data_Access\\Repo\\Attributes\\IAttributes.cs",
+              "RelativeToolTip": "Data_Access\\Repo\\Attributes\\IAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T12:41:40.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AttributesOps.cs",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Data_Access\\Repo\\Attributes\\AttributesOps.cs",
+              "RelativeDocumentMoniker": "Data_Access\\Repo\\Attributes\\AttributesOps.cs",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Data_Access\\Repo\\Attributes\\AttributesOps.cs",
+              "RelativeToolTip": "Data_Access\\Repo\\Attributes\\AttributesOps.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T12:41:53.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EquityOps.cs",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Data_Access\\Repo\\Equity\\EquityOps.cs",
+              "RelativeDocumentMoniker": "Data_Access\\Repo\\Equity\\EquityOps.cs",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Data_Access\\Repo\\Equity\\EquityOps.cs",
+              "RelativeToolTip": "Data_Access\\Repo\\Equity\\EquityOps.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T12:40:00.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IEquity.cs",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Data_Access\\Repo\\Equity\\IEquity.cs",
+              "RelativeDocumentMoniker": "Data_Access\\Repo\\Equity\\IEquity.cs",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Data_Access\\Repo\\Equity\\IEquity.cs",
+              "RelativeToolTip": "Data_Access\\Repo\\Equity\\IEquity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T12:39:46.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Project.csproj",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Project.csproj",
+              "RelativeDocumentMoniker": "Project\\Project.csproj",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Project\\Project.csproj",
+              "RelativeToolTip": "Project\\Project.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-04T12:37:10.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Data_Access\\Class1.cs",
+              "RelativeDocumentMoniker": "Data_Access\\Class1.cs",
+              "ToolTip": "C:\\Users\\avnsharma\\Desktop\\.NET\\C# Programs\\Project\\Data_Access\\Class1.cs",
+              "RelativeToolTip": "Data_Access\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T12:36:52.867Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
